@@ -11,7 +11,7 @@ function AboutPage(props) {
 
             <Content>
                 <p>Hello and welcome! My name is Simon, I'm 28 years old and I live and study Front-End Programming in Stockholm. I started programming in 2018 when I joined an
-                    accelerated learning course in consulting on the SAAS ServiceNow, built on GraphQL and AngularJS. In the consultant role I found I had a proneness for
+                    accelerated learning course in consulting on the SAAS ServiceNow, built on MySQL and AngularJS. In the consultant role I found I had a proneness for
                     code and was quickly put on more difficult configuration tasks. I later moved on to work for Dahl and its outsourced project to create an app
                     written in VueJS and was for the first time exposed to other technologies such as NodeJS, KoA, testing in Jest, collaborating on GitHub, AWS (and Terraform to configure
                     and maintain it) among other middleware and back-end technologies. It was a big leap from writing psuedo-code in ServiceNow and so I decided to properly educate myself to fill in the
