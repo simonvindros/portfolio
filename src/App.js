@@ -33,8 +33,8 @@ class App extends React.Component { /* needed to have
       ],
       home: {
         title: 'One for the future',
-        subTitle: 'Here\'s to wanting to make a change',
-        text: 'Checkout my projects below'
+        //subTitle: 'Here\'s to wanting to make a change',
+        text: 'Check out my projects below'
       },
       about: {
         title: 'About me'

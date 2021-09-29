@@ -6,6 +6,10 @@ import Card from '../components/Card'
 
 import johnny from '../assets/images/johnny.png'
 import quire from '../assets/images/quire.png'
+import ccv from '../assets/images/ccv.jpg'
+import github from '../assets/images/github.png'
+import github2 from '../assets/images/github2.png'
+import swapi from '..assets/images/swapi.png'
 
 class Carousel extends React.Component {
 
@@ -25,8 +29,24 @@ class Carousel extends React.Component {
                     id: 1,
                     title: 'Simon Lindqvist\'s portfolio',
                     subTitle: 'My first react project',
-                    imgSrc: johnny,
+                    imgSrc: github2,
                     link: 'https://github.com/simonlindqvist/portfolio',
+                    selected: false,
+                },
+                {
+                    id: 2,
+                    title: 'CardInvestor',
+                    subTitle: 'A collector\'s investment app',
+                    imgSrc: ccv,
+                    link: 'https://github.com/maxjander/fe20tp2_bev_grupp7/tree/main/src',
+                    selected: false,
+                },
+                {
+                    id: 3,
+                    title: 'SWAPI',
+                    subTitle: 'An easy interface to the SWAPI api',
+                    imgSrc: swapi,
+                    link: 'https://vindros-swapi.surge.sh/',
                     selected: false,
                 }
                 // {

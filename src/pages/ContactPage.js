@@ -45,7 +45,6 @@ class ContactPage extends React.Component {
                         emailSent: true
                     })
                 } else {
-
                     this.setState({
                         disabled: false,
                         emailSent: false
@@ -77,10 +76,10 @@ class ContactPage extends React.Component {
                 */}
 
                 <Content>
-                    <Form onSubmit={this.handleSubmit}>
+                    <Form method="POST" action="https://script.google.com/macros/s/AKfycbzaq4QtXjC6XMjgFR68fF8DHxuXH61uWxsIoEGaKW394tRt3Z0/exec">
                         <Form.Group>
-                            <Form.Label htmlFor='full-name'>Full Name</Form.Label>
-                            <Form.Control id='full-name' name='name' type='text' value={this.state.name} onChange={this.handleChange} />
+                            <Form.Label htmlFor='name'>Full Name</Form.Label>
+                            <Form.Control id='name' name='name' type='text' value={this.state.name} onChange={this.handleChange} />
                         </Form.Group>
 
                         <Form.Group>

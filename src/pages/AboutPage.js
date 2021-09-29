@@ -18,7 +18,7 @@ function AboutPage(props) {
                     blanks when it came to creating an entire architecture for an app and its services.
                     <br />
                     <br />
-                    This brings us to today. I am with even more knowledge about today's ways of molding the front-end, with experience of working with real life projects
+                    This brings us to today. I possess knowledge about today's ways of molding the front-end, with experience of working with real life projects
                     in agile teams. Feel free to check out my GitHub or contact me.
                     <br />
                     <br />
